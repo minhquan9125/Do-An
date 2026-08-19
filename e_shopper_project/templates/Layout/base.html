@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <title>E-Shopper</title>
+</head>
+<body> 
+    {% include 'Layout/header.html' %}
+	{% include 'Layout/slider.html' %}
+    <section>
+		<div class="container">
+			<div class="row">
+				{% include 'Layout/menuLeft.html' %}
+				
+				{% include 'Layout/menuright.html' %}
+			</div>
+		</div>
+	</section>
+    {% include 'Layout/footer.html' %}
+</body>
+</html>
